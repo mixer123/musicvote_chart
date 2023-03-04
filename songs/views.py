@@ -147,3 +147,4 @@ def ranking(request):
     return render(request, 'ranking.html', {'vote_count': vote_count, 'image':graph})
 
 #
+sasa
