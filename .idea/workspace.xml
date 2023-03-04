@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35ea3d5f-f364-40e6-a9aa-c40afe38035a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/musicvote_chart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books_read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/7p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/7p_yCWDZCf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/7p_yCWDZCf_4is9716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/7p_yCWDZCf_pONTHVg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/9mecz_ze_studziencem_24.01.17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/9p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Kombi_-_Nietykalni_.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Kombi_-_Pokolenie.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Kombi_-_Pokolenie_GMZ1EVy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Kombi_-_Pokolenie_vJTyVMD.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Krawczyk_-_Rysunek_na_szkle.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Krawczyk_-_Rysunek_na_szkle_MGsV06l.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Krzysztof_Krawczyk-Rysunek_na_szkle.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Krzysztof_Krawczyk-Rysunek_na_szkle_tlxSvlG.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Lady_Pank_-_Na_Co_Komu_Dzi__1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Lombard_-_Droga_Pani_z_TV_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Lombard_-_Go__bi_puch.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Lombard_-_Go__bi_puch_jnqUl1t.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/dsc07164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/halloween4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pokolenie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/yanaha4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/yanaha4_koNCRtj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicvote_chart/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicvote_chart/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicvote_chart/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicvote_chart/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicvote_chart/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ranking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/migrations/0002_auto_20230224_0730.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/migrations/0003_auto_20230224_0735.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/static/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/static/stylezapas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/ip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/message_ip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/ranking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/song_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/templates/songs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M9XPl8BDoXnTpsKtyWCZzd72Re" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/mixer/MEGAsync/pythonProject/django/musicvote_chart",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35ea3d5f-f364-40e6-a9aa-c40afe38035a" name="Changes" comment="" />
+      <created>1677180749174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677180749174</updated>
+    </task>
+    <servers />
+  </component>
+</project>

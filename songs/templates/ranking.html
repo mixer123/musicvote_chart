@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% load bootstrap4 %}
+{%block title %}
+Lista przebojów
+{% endblock %}
+
+
+
+{% block content %}
+Ranking<br>
+    {% for vc in vote_count %}
+            {{ vc.title }} {{ vc.vote }}<br>
+    {% endfor %}
+
+<!-- <img src={{ image }} alt="Girl in a jacket" width="500" height="600">-->
+<img src="data:image/png;base64, {{ image|safe }}" alt="">
+
+{% endblock %}

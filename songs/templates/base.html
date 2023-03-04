@@ -1,0 +1,36 @@
+{% load static %}
+
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+  Lista przebojow
+  </title>
+ <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelementplayer.min.css" rel="stylesheet"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{% static './style.css' %}" rel="stylesheet"/>
+ </head>
+ <body>
+ <div class="topnav">
+  <a class="active" href="/">Start</a>
+  <a href="/admin/">Administracja</a>
+  <a href="/ranking/">Ranking</a>
+
+</div>
+
+
+{% block content %}
+{% endblock %}
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelement-and-player.min.js">
+  </script>
+
+
+  <script src="{% static './script.js' %}">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+{% load bootstrap4 %}
+{%block title %}
+Lista przebojów
+{% endblock %}
+
+
+
+
+{%block content %}
+{{msg}}
+ {% for item in page_songs %}
+                 <div class="container2">
+
+                    <div class="item">
+                        <img src={{item.image.url}} alt="User-Profile-Image" height="80">
+                    </div>
+                     <div class="item">
+                         {{item.place}}
+                    </div>
+                    <div class="item">
+                         {{item.artist}}
+                    </div>
+
+                      <div class="item">
+                          {{item.title}}
+                      </div>
+                     <div class="item">
+                         głosów: {{item.vote}}
+                      </div>
+                      <div class="item">
+                          {{item.status}}
+                      </div>
+
+                     <div class="item">
+
+                         {% if status_ip %}
+                         {{status_ip}}
+                            <input type="button" value="Głosuj" onclick="new_popup_close('/song/{{item.id}}/');">
+                         {% endif %}
+                         {% if not  status_ip %}
+                         {{status_ip}}
+                            <input type="button" value="Głosuj" onclick="new_popup('/song/{{item.id}}/');">
+                         {% endif %}
+
+<!--                           <a href="/song/{{item.id}}/">Głosuj</a>-->
+                     </div>
+
+                     <div class="audio">
+                         <audio controls>
+                            <source src="{% if item.audio_file %}{{item.audio_file.url}} {% else %} {{item.audio_link}} {% endif %}" type="audio/mp3"/>#}-->
+                         </audio>
+                      </div>
+                 </div>
+<br>
+
+
+
+
+{% endfor %}
+
+<br>
+<p class="center_p">
+{% if page_songs.has_previous %}
+    <a href="?page=1">Pierwszy</a>
+    <a href="?page={{ page_obj.previous_page_number }}">Poprzedni</a>
+{% endif %}
+Strona  {{ page_songs.number}} z  {{ page_songs.paginator.num_pages }}
+{% if page_songs.has_next %}
+    <a href="?page={{ page_songs.next_page_number }}">Następny</a>
+    <a href="?page={{ page_songs.paginator.num_pages }}">Ostatni</a>
+{% endif %}
+    </p>
+{% endblock %}

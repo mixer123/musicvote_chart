@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static%}
+{% load bootstrap4 %}
+{%block title %}
+Lista przebojów
+{% endblock %}
+
+
+
+
+{%block content %}
+
+    <form method="POST" >
+                {% csrf_token %}
+                {{ form.vote.as_hidden }}
+                <br>
+         <p class="center_p">Wpisz tekst z obrazka</p>
+                <p class="center_p">  {{ form.captcha }}
+                        <input type="submit" value="Zapisz">
+                </p>
+    </form>
+{% endblock %}
